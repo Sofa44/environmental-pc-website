@@ -2,7 +2,7 @@ import React from 'react';
 import './App';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
-import Menu from './pages/Menu';
+import Products from './pages/Products';
 import About from './pages/About';
 import Contact from './pages/Contact';
 
@@ -15,7 +15,7 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" exact component={<Home />} />
-          <Route path="/menu" exact component={<Menu />} />
+          <Route path="/products" exact component={<Products />} />
           <Route path="/about" exact component={<About />} />
           <Route path="/contact" exact component={<Contact />} />
         </Routes>
