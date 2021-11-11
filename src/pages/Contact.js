@@ -1,5 +1,4 @@
 import React from 'react';
-import Plastic from '../assets/Plastic.jpg';
 import '../styles/Contact.css';
 
 function Contact() {
@@ -7,12 +6,18 @@ function Contact() {
     <div className="contact">
       <div
         className="leftSide"
-        style={{ backgroundImage: `url(${Plastic})` }}
+        style={{
+          backgroundImage: `url(https://user-images.githubusercontent.com/23085368/141319135-43989443-1370-4560-b8d0-30ccdf863360.jpg)`,
+        }}
       ></div>
       <div className="rightSide">
         <h1> Contact Us</h1>
 
-        <form id="contact-form" method="POST" action="mailto:yousuf.h151@olivegroveschool.ca">
+        <form
+          id="contact-form"
+          method="POST"
+          action="mailto:yousuf.h151@olivegroveschool.ca"
+        >
           <label htmlFor="name">Full Name</label>
           <input name="name" placeholder="Enter full name..." type="text" />
           <label htmlFor="email">Email</label>

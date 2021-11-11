@@ -1,10 +1,14 @@
 import React from 'react';
-import DayBanner from '../assets/DayBanner.jpg';
 import '../styles/About.css';
 function About() {
   return (
-    <div className="about" style={{ backgroundImage: `url(${DayBanner})` }} >
-      <div className="aboutText" >
+    <div
+      className="about"
+      style={{
+        backgroundImage: `url(https://user-images.githubusercontent.com/23085368/141319082-94ccb7d8-176b-4909-a5ef-eb17dd2b2289.jpg)`,
+      }}
+    >
+      <div className="aboutText">
         <h1> ABOUT US</h1>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
@@ -21,7 +25,7 @@ function About() {
           Perspiciatis minima nesciunt dolorem! Officiis iure rerum voluptates a
           cumque velit
         </p>
-                
+
         <h1> HOW WE SHIP </h1>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
