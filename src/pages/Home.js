@@ -12,7 +12,10 @@ function Home() {
     >
       <div className="headerContainer">
         <h1> Natural Technologies </h1>
-        <p> Description </p>
+        <p>
+          The #1 Place to Purchasing Environmentally <br /> Friendly Computer
+          Parts!
+        </p>
         <Link to="/products">
           <button> Products </button>
         </Link>
