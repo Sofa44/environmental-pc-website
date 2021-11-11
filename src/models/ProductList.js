@@ -10,8 +10,8 @@ export const ProductList = [
   },
   {
     name: 'Mouse',
-    image: url(
-      'https://user-images.githubusercontent.com/23085368/141319120-5538d4ff-3bc6-4041-90ec-9b7c1c6d21ce.png'
+    image: (
+      <img src="https://user-images.githubusercontent.com/23085368/141319120-5538d4ff-3bc6-4041-90ec-9b7c1c6d21ce.png" />
     ),
     price: 40.0,
     description:
@@ -19,8 +19,8 @@ export const ProductList = [
   },
   {
     name: 'Case',
-    image: url(
-      'https://user-images.githubusercontent.com/23085368/141319067-9ee3f964-3379-41fb-b5ee-e2bdad8dc1c0.png'
+    image: (
+      <img src="https://user-images.githubusercontent.com/23085368/141319067-9ee3f964-3379-41fb-b5ee-e2bdad8dc1c0.png" />
     ),
     price: 256.0,
     description:
@@ -28,8 +28,8 @@ export const ProductList = [
   },
   {
     name: 'Fans',
-    image: url(
-      'https://user-images.githubusercontent.com/23085368/141319091-833c7e2c-cb7d-4fa1-afec-832c71b62863.png'
+    image: (
+      <img src="https://user-images.githubusercontent.com/23085368/141319091-833c7e2c-cb7d-4fa1-afec-832c71b62863.png" />
     ),
     price: 10.0,
     description:
