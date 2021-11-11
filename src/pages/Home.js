@@ -11,7 +11,7 @@ function Home() {
       }}
     >
       <div className="headerContainer">
-        <h1> Title </h1>
+        <h1> Natural Technologies </h1>
         <p> Description </p>
         <Link to="/products">
           <button> Products </button>

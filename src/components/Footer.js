@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react';
 import GitHubIcon from '@mui/icons-material/GitHub';
-import TwitterIcon from "@mui/icons-material/Twitter";
-import "../styles/Footer.css";
+import TwitterIcon from '@mui/icons-material/Twitter';
+import '../styles/Footer.css';
 
 function Footer() {
   return (
@@ -10,7 +10,7 @@ function Footer() {
         <TwitterIcon />
         <GitHubIcon />
       </div>
-      <p> &copy; 2021 CompanyName.com</p>
+      <p> &copy; 2021 Natural-Technologies.com</p>
     </div>
   );
 }

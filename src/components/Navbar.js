@@ -12,7 +12,7 @@ function Navbar() {
         />
         <Link to="/" id="title">
           {' '}
-          Title{' '}
+          Natural Technologies{' '}
         </Link>
       </div>
 
