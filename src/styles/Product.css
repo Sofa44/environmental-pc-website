@@ -7,7 +7,7 @@
   flex-direction: column;
 }
 .product .productTitle {
-  font-family: "Trebuchet MS";
+  font-family: 'Trebuchet MS';
   font-size: 45px;
 }
 
@@ -15,7 +15,7 @@
   width: 70vw;
   height: auto;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   place-items: center;
 }
 
@@ -47,7 +47,7 @@
 }
 
 .space div {
-  width:0%;
+  width: 0%;
   height: 30px;
 }
 
@@ -62,4 +62,3 @@
     grid-template-columns: 1fr;
   }
 }
-
